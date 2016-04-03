@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 body {
-    background-image: url(no7an.png);
+    background-image: url(no7an3.png);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000000;
@@ -10,13 +10,19 @@ body {
 }
 
 .song {
-    position: fixed;
-    width: 1000px;
-    bottom: 0;
-    left: 0;
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+    width: 800px;
+    height: 400px;
+    padding-top: 40px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .email {
-    color: #50E3C2;
+    color: black;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -25,7 +31,84 @@ body {
     padding-bottom: 8px;
 }
 
-h2 {
-    color:#50E3C2;
+h1 {
+    color:floralwhite;
     font-family: 'Oswald', sans-serif;
+}
+h2 {
+    color:floralwhite;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    color:floralwhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.about1 {
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    height: 400px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about2 {
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+    width: 1500px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.toolbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+}
+.button1 {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+}
+.button2 {
+    padding-left: 5px;
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: floralwhite;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    background-color: black;
+}
+a:hover, a:link {
+    padding: 5px;
+    text-decoration: none;
+    background-color: #0d0d0d; 
+}
+a:active {
+    padding: 5px;
+    text-decoration: none;
+    background-color: #1a1a1a;
+}
+.songlist {
+    color: floralwhite;
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    height: 400px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
